@@ -64,7 +64,7 @@
             )
         else if (host == "https://uniwebwidget.herokuapp.com")
 							$("div[role='navigation'] a").attr("data-content",
-								`<iframe id='iChatPopup' src='https://uniwebwidget.herokuapp.com/?popup=1&search=' height='530' width='300' style='border:none'></iframe>`
+								`<iframe id='iChatPopup' src='https://uniwebwidget.herokuapp.com/?popup=1&search=${params}' height='530' width='300' style='border:none'></iframe>`
 							)
         else
             $("div[role='navigation'] a").attr("data-content",
@@ -111,7 +111,7 @@
                     )
 		    else if (host == "https://uniwebwidget.herokuapp.com")
 							$("div[role='navigation'] a").attr("data-content",
-								`<iframe id='iChatPopup' src='https://uniwebwidget.herokuapp.com/?popup=1&search=' height='530' width='300' style='border:none'></iframe>`
+								`<iframe id='iChatPopup' src='https://uniwebwidget.herokuapp.com/?popup=1&search=${params}' height='530' width='300' style='border:none'></iframe>`
 							)
                 else
                     $("div[role='navigation'] a").attr("data-content",
