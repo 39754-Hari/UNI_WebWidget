@@ -3,7 +3,7 @@ define(['navigation'], function (navigation) {
     var methods = {};
     methods.data = {
         "chatwindow": "Hi",
-        "Scholorship": "Scholorship"
+        "scholarship": "scholarship"
     }
     return methods;
 });
