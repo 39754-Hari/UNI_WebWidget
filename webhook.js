@@ -155,7 +155,7 @@ app.get('/chatwindow', function (req, res) {
     res.sendfile(__dirname + '/chatwindow1.html');
   });
 });
-app.get('/roaming', function (req, res) {
+app.get('/scholarship', function (req, res) {
   readFile("IncompleteTransaction.json", function (hasFile, data) {
     if (hasFile) {
       jsonIncompleteTran = data;
