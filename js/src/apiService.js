@@ -51,6 +51,7 @@ define(['jquery', 'settings', 'utils', 'messageTemplates', 'cards', 'uuid'],
                     },
                     data: JSON.stringify(this.options),
                     success: function (response) {
+                        console.log('response:',response);
                         if (msg_container && msg_container.parent() && msg_container.parent().find("img.loading-gif-typing").html()) {
                             msg_container.parent().find("img.loading-gif-typing").remove();
                         }
